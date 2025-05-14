@@ -10,7 +10,7 @@ export default function PricingPage() {
       price: "₹3999",
       description: "Perfect for small businesses just getting started",
       features: [
-        "Up to 25 employees",
+        "Up to 15 employees",
         "Core HRMS features",
         "Employee self-service",
         "Basic attendance management",
@@ -25,7 +25,7 @@ export default function PricingPage() {
       price: "₹4999",
       description: "Ideal for growing businesses with advanced needs",
       features: [
-        "Up to 100 employees",
+        "Up to 35 employees",
         "All Starter features",
         "Advanced payroll management",
         "Performance management",

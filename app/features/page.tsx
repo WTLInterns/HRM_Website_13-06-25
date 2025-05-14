@@ -43,7 +43,7 @@ export default function FeaturesPage() {
               <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">Complete HRMS</h2>
               <p className="text-gray-700 mb-6">
                 Manage Core HR, HRIS, HR Operations, HR Strategy, Payroll and Workplace Culture like Never Before with
-                247HRM Unified Platform.
+                Managifyhr Unified Platform.
               </p>
               <ul className="space-y-3">
                 {[
@@ -310,7 +310,7 @@ export default function FeaturesPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your HR Operations?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Join hundreds of organizations that trust 247HRM to streamline their HR processes and enhance employee
+            Join hundreds of organizations that trust Managifyhr to streamline their HR processes and enhance employee
             experience.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

@@ -13,7 +13,7 @@ export default function HRMSPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Complete HRMS Solution</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Manage Core HR, HRIS, HR Operations, HR Strategy, Payroll and Workplace Culture like Never Before with
-            247HRM Unified Platform.
+            Managifyhr Unified Platform.
           </p>
         </div>
       </section>

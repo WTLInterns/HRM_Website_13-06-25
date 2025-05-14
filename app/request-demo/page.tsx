@@ -18,7 +18,7 @@ export default function RequestDemoPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Request a Demo</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            See how 247HRM can transform your HR operations with a personalized demo.
+            See how Managifyhr can transform your HR operations with a personalized demo.
           </p>
         </div>
       </section>
@@ -28,10 +28,10 @@ export default function RequestDemoPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-2xl font-bold text-[#0a1e5e] mb-6">Experience the Power of 247HRM</h2>
+              <h2 className="text-2xl font-bold text-[#0a1e5e] mb-6">Experience the Power of Managifyhr</h2>
               <p className="text-gray-700 mb-6">
                 Fill out the form to schedule a personalized demo with one of our product specialists. We'll show you
-                how 247HRM can help streamline your HR processes and boost employee engagement.
+                how Managifyhr can help streamline your HR processes and boost employee engagement.
               </p>
 
               <div className="space-y-6">
@@ -180,7 +180,7 @@ export default function RequestDemoPage() {
                   <div className="flex items-start space-x-2">
                     <Checkbox id="terms" />
                     <Label htmlFor="terms" className="text-sm font-normal">
-                      I agree to receive communications from 247HRM. Read our{" "}
+                      I agree to receive communications from Managifyrh. Read our{" "}
                       <Link href="/privacy-policy" className="text-[#f26b3f] hover:underline">
                         Privacy Policy
                       </Link>
@@ -222,7 +222,7 @@ export default function RequestDemoPage() {
                   ))}
                 </div>
                 <p className="text-gray-700 text-lg italic mb-6">
-                  "The demo session was incredibly helpful in understanding how 247HRM could address our specific HR
+                  "The demo session was incredibly helpful in understanding how Managifyhr could address our specific HR
                   challenges. The implementation was smooth, and we've seen a significant improvement in our HR
                   processes since then."
                 </p>
@@ -266,7 +266,7 @@ export default function RequestDemoPage() {
                 {
                   question: "What happens after the demo?",
                   answer:
-                    "After the demo, our team will follow up with additional information and next steps if you're interested in moving forward with 247HRM.",
+                    "After the demo, our team will follow up with additional information and next steps if you're interested in moving forward with Managifyhr.",
                 },
               ].map((faq, index) => (
                 <div key={index} className="bg-gray-50 p-6 rounded-lg">

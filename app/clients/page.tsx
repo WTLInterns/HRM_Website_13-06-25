@@ -7,7 +7,7 @@ export default function ClientsPage() {
   const testimonials = [
     {
       quote:
-        "247HRM has transformed our HR operations completely. The system is intuitive and the support team is exceptional.",
+        "Managifyhr has transformed our HR operations completely. The system is intuitive and the support team is exceptional.",
       name: "Rajesh Kumar",
       position: "HR Director, Global Aluminium",
       company: "Global Aluminium",
@@ -23,7 +23,7 @@ export default function ClientsPage() {
     },
     {
       quote:
-        "We've seen a significant improvement in employee engagement since implementing 247HRM's self-service portal.",
+        "We've seen a significant improvement in employee engagement since implementing Managifyhr's self-service portal.",
       name: "Amit Patel",
       position: "CEO, MagSon Group",
       company: "MagSon Group",
@@ -38,7 +38,7 @@ export default function ClientsPage() {
     },
     {
       quote:
-        "247HRM's analytics capabilities have given us valuable insights into our workforce that we never had before.",
+        "Managifyhr's analytics capabilities have given us valuable insights into our workforce that we never had before.",
       name: "Vikram Singh",
       position: "HR Head, ICAI",
       company: "ICAI",
@@ -57,20 +57,20 @@ export default function ClientsPage() {
     {
       title: "How Global Aluminium Reduced HR Processing Time by 70%",
       description:
-        "Global Aluminium implemented 247HRM to streamline their HR processes and saw dramatic improvements in efficiency.",
+        "Global Aluminium implemented Managifyhr to streamline their HR processes and saw dramatic improvements in efficiency.",
       image: "/images/case-study-1.jpg",
       link: "/resources/case-studies/global-aluminium",
     },
     {
       title: "Vimta Labs: Transforming Payroll Management",
       description:
-        "Vimta Labs eliminated payroll errors and reduced processing time from 5 days to just 1 day with 247HRM.",
+        "Vimta Labs eliminated payroll errors and reduced processing time from 5 days to just 1 day with Managifyhr.",
       image: "/images/case-study-2.jpg",
       link: "/resources/case-studies/vimta-labs",
     },
     {
       title: "MagSon Group's Employee Engagement Success Story",
-      description: "Learn how MagSon Group improved employee satisfaction scores by 45% after implementing 247HRM.",
+      description: "Learn how MagSon Group improved employee satisfaction scores by 45% after implementing Managifyhr.",
       image: "/images/case-study-3.jpg",
       link: "/resources/case-studies/magson-group",
     },
@@ -193,7 +193,7 @@ export default function ClientsPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Our Growing Client Base</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Experience the same benefits that our clients enjoy with 247HRM's comprehensive HR solutions.
+            Experience the same benefits that our clients enjoy with Managifyhr's comprehensive HR solutions.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/request-demo">

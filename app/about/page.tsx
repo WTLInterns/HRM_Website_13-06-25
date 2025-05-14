@@ -9,9 +9,9 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="lg:flex items-center">
             <div className="lg:w-1/2 mb-8 lg:mb-0">
-              <h1 className="text-4xl font-bold text-[#0a1e5e] mb-6">About 247HRM</h1>
+              <h1 className="text-4xl font-bold text-[#0a1e5e] mb-6">About Managifyhr</h1>
               <p className="text-lg text-gray-700 mb-8">
-                247HRM is a leading provider of innovative HR technology solutions, empowering organizations to
+                Managifyhr is a leading provider of innovative HR technology solutions, empowering organizations to
                 streamline their HR processes, enhance employee engagement, and drive business success.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -212,7 +212,7 @@ export default function AboutPage() {
                   year: "2010",
                   title: "Foundation",
                   description:
-                    "247HRM was founded with a vision to transform HR management through innovative technology solutions.",
+                    "Managifyhr was founded with a vision to transform HR management through innovative technology solutions.",
                 },
                 {
                   year: "2012",

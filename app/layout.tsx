@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "247HRM - Complete HR Management Solution",
+  title: "Managifyhr",
   description: "Empower. Engage. Enhance. 247HRM provides comprehensive HR management solutions for modern businesses.",
     generator: 'v0.dev'
 }
