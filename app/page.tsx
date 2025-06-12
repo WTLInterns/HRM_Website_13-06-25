@@ -55,19 +55,20 @@ export default function Home() {
           <div className="relative">
             <div className="relative rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/images/1.png"
+                src="/images/HRM New dahbord.png"
                 alt="247HRM Features"
                 width={600}
                 height={400}
                 className="w-full h-auto"
               />
+
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="bg-white/20 backdrop-blur-sm p-4 rounded-full">
                   <Play className="w-12 h-12 text-white" />
                 </div>
               </div>
               <div className="absolute top-4 right-4">
-                <Image src="/maangifyhr.jpeg" alt="247HRM Logo" width={100} height={30} className="object-contain" />
+               
               </div>
             </div>
           </div>

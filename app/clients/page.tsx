@@ -11,7 +11,7 @@ export default function ClientsPage() {
       name: "Rajesh Kumar",
       position: "HR Director, Global Aluminium",
       company: "Global Aluminium",
-      logo: "/images/client-global-aluminium.png",
+      logo: "/images/client-vimta.png",
     },
     {
       quote:

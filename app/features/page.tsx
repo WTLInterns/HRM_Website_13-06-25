@@ -32,7 +32,7 @@ export default function FeaturesPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <Image
-                src="/images/hrms-feature.jpg"
+                src="/images/HRM New dahbord.png"
                 alt="Complete HRMS"
                 width={600}
                 height={450}
@@ -70,11 +70,6 @@ export default function FeaturesPage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/features/hrms" className="inline-block mt-6">
-                <button className="bg-[#0a1e5e] hover:bg-[#0a1e5e]/90 text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Learn More
-                </button>
-              </Link>
             </div>
           </div>
         </div>
@@ -115,15 +110,10 @@ export default function FeaturesPage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/features/payroll" className="inline-block mt-6">
-                <button className="bg-[#0a1e5e] hover:bg-[#0a1e5e]/90 text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Learn More
-                </button>
-              </Link>
             </div>
             <div className="order-1 md:order-2 relative">
               <Image
-                src="/images/payroll-feature.jpg"
+                src="/images/payroll managment.png"
                 alt="Payroll Management"
                 width={600}
                 height={450}
@@ -140,7 +130,7 @@ export default function FeaturesPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <Image
-                src="/images/attendance-feature.jpg"
+                src="/images/attendance managment.png"
                 alt="Attendance Management"
                 width={600}
                 height={450}
@@ -178,11 +168,6 @@ export default function FeaturesPage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/features/attendance" className="inline-block mt-6">
-                <button className="bg-[#0a1e5e] hover:bg-[#0a1e5e]/90 text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Learn More
-                </button>
-              </Link>
             </div>
           </div>
         </div>
@@ -223,15 +208,10 @@ export default function FeaturesPage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/features/leave" className="inline-block mt-6">
-                <button className="bg-[#0a1e5e] hover:bg-[#0a1e5e]/90 text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Learn More
-                </button>
-              </Link>
             </div>
             <div className="order-1 md:order-2 relative">
               <Image
-                src="/images/leave-feature.jpg"
+                src="/images/leave managment.png"
                 alt="Leave Management"
                 width={600}
                 height={450}
@@ -248,7 +228,7 @@ export default function FeaturesPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <Image
-                src="/images/time-tracking-feature.jpg"
+                src="/images/track employee.png"
                 alt="Time Tracking"
                 width={600}
                 height={450}
@@ -256,19 +236,18 @@ export default function FeaturesPage() {
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">Time Tracking</h2>
+              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">Employee Tracking</h2>
               <p className="text-gray-700 mb-6">
-                Monitor employee work hours and productivity with our advanced time tracking system. Track project
-                hours, billable time, and generate detailed reports for better resource management.
+                  Enhance workforce oversight with our real-time employee tracking platform. Continuously monitor staff locations, attendance patterns, and daily activities to optimize productivity, ensure accountability, and streamline operations across all teams.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Project Time Tracking",
-                  "Billable Hours Management",
-                  "Activity Monitoring",
-                  "Productivity Analytics",
-                  "Time Sheet Approvals",
-                  "Client Billing Integration",
+                     'Real-time Location Monitoring',
+    'Attendance & Check-in/Out',
+    'Shift & Schedule Management',
+    'Geo-fencing Alerts',
+    'Idle Time Detection',
+    'Performance & Activity Reports',
                 ].map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
@@ -286,11 +265,6 @@ export default function FeaturesPage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/features/time-tracking" className="inline-block mt-6">
-                <button className="bg-[#0a1e5e] hover:bg-[#0a1e5e]/90 text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Learn More
-                </button>
-              </Link>
             </div>
           </div>
         </div>
