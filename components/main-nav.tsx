@@ -36,24 +36,24 @@ export default function MainNav() {
               </Link>
               <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <div className="py-1">
-                  <Link href="/features/hrms" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  {/* <Link href="/features/hrms" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     HRMS
-                  </Link>
-                  <Link href="/features/payroll" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  </Link> */}
+                  {/* <Link href="/features/payroll" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Payroll Management
-                  </Link>
-                  <Link href="/features/attendance" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  </Link> */}
+                  {/* <Link href="/features/attendance" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Attendance Management
-                  </Link>
-                  <Link href="/features/leave" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  </Link> */}
+                  {/* <Link href="/features/leave" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Leave Management
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     href="/features/time-tracking"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     Time Tracking
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

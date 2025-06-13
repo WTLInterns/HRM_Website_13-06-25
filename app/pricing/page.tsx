@@ -7,7 +7,7 @@ export default function PricingPage() {
   const pricingPlans = [
     {
       name: "Starter",
-      price: "₹3999",
+      price: "₹1999",
       description: "Perfect for small businesses just getting started",
       features: [
         "Up to 15 employees",
@@ -22,7 +22,7 @@ export default function PricingPage() {
     },
     {
       name: "Professional",
-      price: "₹4999",
+      price: "₹2999",
       description: "Ideal for growing businesses with advanced needs",
       features: [
         "Up to 35 employees",
