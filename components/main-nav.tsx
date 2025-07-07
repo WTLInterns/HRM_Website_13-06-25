@@ -74,6 +74,10 @@ export default function MainNav() {
               Partners
             </Link>
 
+            <Link href="/mobile" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-[#0a1e5e]/80">
+              Mobile
+            </Link>
+
             <div className="relative group">
               <Link
                 href="/resources"
@@ -107,6 +111,7 @@ export default function MainNav() {
                 </div>
               </div>
             </div>
+            
           </nav>
 
           <div className="hidden md:block">
@@ -263,6 +268,12 @@ export default function MainNav() {
                 </Link>
               </div>
             </div>
+            <Link
+              href="/mobile"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-[#0a1e5e]/80"
+            >
+              Mobile
+            </Link>
 
             <div className="pt-4">
               <Link href="/request-demo" className="block w-full">

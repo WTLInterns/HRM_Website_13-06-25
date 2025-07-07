@@ -1,9 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import MainNav from "@/components/main-nav"
-import FeatureCards from "@/components/feature-cards"
 
-export default function FeaturesPage() {
+export default function MobilePage() {
   return (
     <div className="flex flex-col min-h-screen">
       <MainNav />
@@ -12,10 +11,9 @@ export default function FeaturesPage() {
       <section className="bg-[#0a1e5e] text-white py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Unleash the full potential with our best features</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Empower Your Workforce On the Go</h1>
             <p className="text-xl mb-8">
-              Discover our comprehensive HR solutions designed to streamline your operations and enhance employee
-              experience.
+              Discover our mobile HRM features designed for productivity, accessibility, and seamless management from anywhere.
             </p>
             <Link href="/request-demo">
               <button className="bg-[#f26b3f] hover:bg-[#e05a2f] text-white font-medium py-3 px-6 rounded-full transition-colors">
@@ -26,33 +24,32 @@ export default function FeaturesPage() {
         </div>
       </section>
 
-      {/* Complete HRMS Section */}
+      {/* Mobile Dashboard Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
+            <div className="flex justify-center items-center h-full">
               <Image
-                src="/images/HRM New dahbord.png"
-                alt="Complete HRMS"
-                width={600}
-                height={450}
+                src="/images/Mobile_Dashboard.jpeg"
+                alt="Mobile Dashboard"
+                width={220}
+                height={150}
                 className="rounded-lg shadow-xl"
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">📱 Complete HRMS</h2>
+              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">📱 Mobile Dashboard</h2>
               <p className="text-gray-700 mb-6">
-                Manage Core HR, HRIS, HR Operations, HR Strategy, Payroll and Workplace Culture like Never Before with
-                Managifyhr Unified Platform.
+                Access all your HR essentials from your mobile device. View states, notifications, and manage your employees dashboard on the go.
               </p>
               <ul className="space-y-3">
                 {[
-                  "HR Operations and Strategy Modules",
-                  "Analyze and Develop Workplace Culture",
-                  "Multiple Device Access",
-                  "Employee Onboarding & Exit",
-                  "Host Company Policies for View and Acceptance",
-                  "Employee Document Management",
+                  "Real-time Notifications",
+                  "Quick Employee Lookup",
+                  "Mobile Leave Requests",
+                  "Attendance Marking",
+                  "Payslip Access",
+                  "Mobile-first Analytics",
                 ].map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
@@ -75,24 +72,21 @@ export default function FeaturesPage() {
         </div>
       </section>
 
-      {/* Payroll Management Section */}
+      {/* Mobile Attendance Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">💰 Payroll Management</h2>
+              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">📊 Mobile Attendance</h2>
               <p className="text-gray-700 mb-6">
-                Simplify your payroll process with our automated payroll management system. Calculate salaries, taxes,
-                and deductions accurately while ensuring compliance with local regulations.
+                Mark attendance, check schedules, and track hours right from your phone. Perfect for remote and field teams.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Automated Salary Calculations",
-                  "Tax Compliance",
-                  "Multiple Payment Methods",
-                  "Payslip Generation",
-                  "Statutory Compliance",
-                  "Payroll Reports & Analytics",
+                  "Location-based Check-in",
+                  "Geo-fencing Support",
+                  "Attendance History",
+                  "Team Attendance Overview",
                 ].map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
@@ -113,10 +107,10 @@ export default function FeaturesPage() {
             </div>
             <div className="order-1 md:order-2 relative">
               <Image
-                src="/images/payroll managment.png"
-                alt="Payroll Management"
-                width={600}
-                height={450}
+                src="/images/Mobile_Attendance.jpeg"
+                alt="Mobile Attendance"
+                width={220}
+                height={150}
                 className="rounded-lg shadow-xl"
               />
             </div>
@@ -124,33 +118,30 @@ export default function FeaturesPage() {
         </div>
       </section>
 
-      {/* Attendance Management Section */}
+      {/* Mobile Leave Management Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
+            <div className="flex justify-center items-center h-full">
               <Image
-                src="/images/attendance managment.png"
-                alt="Attendance Management"
-                width={600}
-                height={450}
+                src="/images/Mobile_Leave.jpeg"
+                alt="Mobile Leave Management"
+                width={220}
+                height={150}
                 className="rounded-lg shadow-xl"
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">📊 Attendance Management</h2>
+              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">💾 Mobile Leave Management</h2>
               <p className="text-gray-700 mb-6">
-                Track employee attendance effortlessly with our advanced attendance management system. Support for
-                multiple check-in methods, shift management, and comprehensive reporting.
+                Apply for leave, view balances, and track approvals straight from your mobile device—anytime, anywhere.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Biometric Integration",
-                  "Mobile Check-in",
-                  "Shift Management",
-                  "Overtime Tracking",
-                  "Real-time Attendance Dashboard",
-                  "Attendance Reports",
+                  "Instant Leave Application",
+                  "Leave Balance Overview",
+                  "Approval Notifications",
+                  "Leave History Access",
                 ].map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
@@ -168,153 +159,6 @@ export default function FeaturesPage() {
                   </li>
                 ))}
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Leave Management Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1">
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">💾 Leave Management</h2>
-              <p className="text-gray-700 mb-6">
-                Streamline your leave application and approval process with our intuitive leave management system. Set
-                up custom leave policies, approval workflows, and generate comprehensive reports.
-              </p>
-              <ul className="space-y-3">
-                {[
-                  "Multiple Leave Types",
-                  "Custom Leave Policies",
-                  "Approval Workflows",
-                  "Leave Calendar",
-                  "Leave Balance Tracking",
-                  "Leave Reports",
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
-                      <svg
-                        className="w-3 h-3 text-white"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="order-1 md:order-2 relative">
-              <Image
-                src="/images/leave managment.png"
-                alt="Leave Management"
-                width={600}
-                height={450}
-                className="rounded-lg shadow-xl"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Time Tracking Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <Image
-                src="/images/track employee.png"
-                alt="Time Tracking"
-                width={600}
-                height={450}
-                className="rounded-lg shadow-xl"
-              />
-            </div>
-            <div>
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">🔍 Employee Tracking</h2>
-              <p className="text-gray-700 mb-6">
-                  Enhance workforce oversight with our real-time employee tracking platform. Continuously monitor staff locations, attendance patterns, and daily activities to optimize productivity, ensure accountability, and streamline operations across all teams.
-              </p>
-              <ul className="space-y-3">
-                {[
-                     'Real-time Location Monitoring',
-    'Attendance & Check-in/Out',
-    'Shift & Schedule Management',
-    'Geo-fencing Alerts',
-    'Idle Time Detection',
-    'Performance & Activity Reports',
-    'Tracking Multiple Employees Location at a Time',
-    'Location-based Reporting Via ExcelSheet data Download'
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
-                      <svg
-                        className="w-3 h-3 text-white"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Multi-Language Switching Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">🌍 Multi-Language Switching</h2>
-              <p className="text-gray-700 mb-6">
-                Break language barriers and enhance global accessibility with our comprehensive multi-language HRM platform. Seamlessly switch between English, Hindi, and Marathi with instant translations, persistent settings, and culturally adapted interfaces for diverse workforce management.
-              </p>
-              <ul className="space-y-3">
-                {[
-                  '⚡ Instant Language Switching',
-                  '💾 Persistent Language Preference',
-                  '🔄 Complete Interface Translation',
-                  '🌐 Languages Options  :  1) English',
-                  '                         2) Hindi',
-                  '                         3) Marathi',
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
-                      <svg
-                        className="w-3 h-3 text-white"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span style={{whiteSpace: 'pre-line'}}>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="relative">
-              <Image
-                src="/images/Languages.png"
-                alt="Multi-Language Switching"
-                width={600}
-                height={550}
-                className="rounded-lg shadow-xl"
-              />
             </div>
           </div>
         </div>
@@ -322,114 +166,105 @@ export default function FeaturesPage() {
 
       
 
-      {/* Emergency Messaging Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <Image
-                src="/images/Notification.png"
-                alt="Emergency Messaging"
-                width={600}
-                height={550}
-                className="rounded-lg shadow-xl"
-              />
-            </div>
-            <div>
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">🚨 Emergency Messaging</h2>
-              <p className="text-gray-700 mb-6">
-                Ensure workplace safety and rapid communication during critical situations with our comprehensive emergency messaging system. Instantly broadcast urgent notifications to all employees simultaneously across multiple channels, with priority levels and delivery confirmation for maximum reach and effectiveness.
-              </p>
-              <ul className="space-y-3">
-                {[
-                  'Instant Mass Communication',
-                  'Multi-Channel Message Delivery',
-                  'Emergency Priority Levels',
-                  'Real-time Delivery Confirmation',
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
-                      <svg
-                        className="w-3 h-3 text-white"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      {/* Real-time Notification Showing Feature Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">🔔 Real-time Notification Showing Feature</h2>
-              <p className="text-gray-700 mb-6">
-                Stay instantly informed with our advanced real-time notification system that delivers immediate alerts and updates across your entire HRM platform. Experience seamless communication with smart notification management and cross-device synchronization for enhanced productivity and awareness.
-              </p>
-              <ul className="space-y-3">
-                {[
-                  'Instant System-wide Alerts',
-                  'Smart Notification Center',
-                  'Cross-device Synchronization',
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
-                      <svg
-                        className="w-3 h-3 text-white"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="relative">
-              <Image
-                src="/images/RealTime_Message.png"
-                alt="Real-time Notification"
-                width={600}
-                height={550}
-                className="rounded-lg shadow-xl"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Other Features Section */}
+      {/* Mobile Notification Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-[#0a1e5e] mb-12">More Powerful Features</h2>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">🔔 Mobile Notifications</h2>
+              <p className="text-gray-700 mb-6">
+                Get real-time push notifications for approvals, announcements, and reminders. Always stay in the loop.
+              </p>
+              <ul className="space-y-3">
+                {[
+                  "Push Notification Alerts",
+                  "Smart Notification Center",
+                  "Custom Notification Settings",
+                  "Cross-device Sync",
+                ].map((feature, index) => (
+                  <li key={index} className="flex items-start">
+                    <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
+                      <svg
+                        className="w-3 h-3 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span>{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="order-1 md:order-2 relative">
+              <Image
+                src="/images/Mobile_Notification.jpeg"
+                alt="Mobile Notifications"
+                width={220}
+                height={150}
+                className="rounded-lg shadow-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <FeatureCards />
+
+      {/* Uploaded Resume Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="flex justify-center items-center h-full">
+              <Image
+                src="/images/Mobile_Resume.jpeg"
+                alt="Uploaded Resume"
+                width={220}
+                height={150}
+                className="rounded-lg shadow-xl"
+              />
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold text-[#0a1e5e] mb-6">📄 Uploaded Resume</h2>
+              <p className="text-gray-700 mb-6">
+                Manage and access uploaded resumes directly from your mobile device for quick candidate review and streamlined hiring.
+              </p>
+              <ul className="space-y-3">
+                {[
+                  "Easy Resume Upload",
+                  "Instant Document Preview",
+                  "Candidate Profile Linking",
+                  "Mobile Download & Share",
+                ].map((feature, index) => (
+                  <li key={index} className="flex items-start">
+                    <div className="mr-2 mt-1 bg-[#f26b3f] rounded-full p-1">
+                      <svg
+                        className="w-3 h-3 text-white"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span>{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* CTA Section */}
       <section className="py-16 bg-[#0a1e5e] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your HR Operations?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Go Mobile?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Join hundreds of organizations that trust Managifyhr to streamline their HR processes and enhance employee
-            experience.
+            Empower your team with our mobile-first HRM platform for ultimate flexibility and productivity.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/request-demo">
@@ -437,9 +272,9 @@ export default function FeaturesPage() {
                 Request Demo
               </button>
             </Link>
-            <Link href="/pricing">
+            <Link href="/features">
               <button className="bg-transparent hover:bg-white/10 border-2 border-white text-white font-medium py-3 px-8 rounded-full transition-colors">
-                View Pricing
+                View All Features
               </button>
             </Link>
           </div>
@@ -544,6 +379,16 @@ export default function FeaturesPage() {
                 </li>
               </ul>
             </div>
++            <div>
++              <h3 className="text-lg font-semibold mb-4">Mobile</h3>
++              <ul className="space-y-2">
++                <li>
++                  <Link href="/mobile" className="text-gray-400 hover:text-white">
++                    Mobile Features
++                  </Link>
++                </li>
++              </ul>
++            </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
               <ul className="space-y-2 text-gray-400">
